@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 Denis Zamataev. All rights reserved.
 //
 
-#import "KNSecondViewController.h"
+#import "KNLoginViewController.h"
 
-@interface KNSecondViewController ()
+@interface KNLoginViewController ()
 
 @end
 
-@implementation KNSecondViewController
+@implementation KNLoginViewController
 
 - (void)viewDidLoad
 {
@@ -26,4 +26,6 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)login:(id)sender {
+}
 @end
