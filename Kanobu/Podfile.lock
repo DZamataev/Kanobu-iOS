@@ -35,7 +35,7 @@ PODS:
 DEPENDENCIES:
   - CocoaLumberjack
   - iOS-blur (= 0.0.2)
-  - RestKit
+  - RestKit (= 0.21.0)
   - TestFlightFeedback
   - TestFlightSDK
 

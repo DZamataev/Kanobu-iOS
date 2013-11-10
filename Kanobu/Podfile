@@ -1,6 +1,6 @@
 platform :ios, '7.0'
 pod 'CocoaLumberjack'
-pod 'RestKit'
+pod 'RestKit', '0.21.0'
 pod 'TestFlightSDK'
 pod 'TestFlightFeedback'
 pod 'iOS-blur', '0.0.2'

@@ -24,6 +24,12 @@
 		CE53CEB21824104B00AE961C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE53CE8E1824104B00AE961C /* UIKit.framework */; };
 		CE53CEBA1824104B00AE961C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE53CEB81824104B00AE961C /* InfoPlist.strings */; };
 		CE53CEBC1824104B00AE961C /* KanobuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE53CEBB1824104B00AE961C /* KanobuTests.m */; };
+		CED53367182FF4FF00EBBA5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED53366182FF4FF00EBBA5D /* QuartzCore.framework */; };
+		CED53369182FF50500EBBA5D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED53368182FF50500EBBA5D /* CoreData.framework */; };
+		CED5336B182FF51000EBBA5D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED5336A182FF51000EBBA5D /* CFNetwork.framework */; };
+		CED5336D182FF51800EBBA5D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED5336C182FF51800EBBA5D /* MobileCoreServices.framework */; };
+		CED5336F182FF51D00EBBA5D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED5336E182FF51D00EBBA5D /* Security.framework */; };
+		CED53371182FF54300EBBA5D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED53370182FF54300EBBA5D /* SystemConfiguration.framework */; };
 		CED88F1E182AC7150013CF78 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CED88F20182AC7150013CF78 /* Localizable.strings */; };
 		CED88F28182AD10C0013CF78 /* KNLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CED88F27182AD10C0013CF78 /* KNLoginModel.m */; };
 /* End PBXBuildFile section */
@@ -63,6 +69,12 @@
 		CE53CEB71824104B00AE961C /* KanobuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KanobuTests-Info.plist"; sourceTree = "<group>"; };
 		CE53CEB91824104B00AE961C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE53CEBB1824104B00AE961C /* KanobuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KanobuTests.m; sourceTree = "<group>"; };
+		CED53366182FF4FF00EBBA5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CED53368182FF50500EBBA5D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CED5336A182FF51000EBBA5D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CED5336C182FF51800EBBA5D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CED5336E182FF51D00EBBA5D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CED53370182FF54300EBBA5D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		CED88F1A182AC70E0013CF78 /* ru-RU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ru-RU"; path = "ru-RU.lproj/Main_iPhone.strings"; sourceTree = "<group>"; };
 		CED88F1B182AC70E0013CF78 /* ru-RU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ru-RU"; path = "ru-RU.lproj/Main_iPad.strings"; sourceTree = "<group>"; };
 		CED88F1C182AC70E0013CF78 /* ru-RU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ru-RU"; path = "ru-RU.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
@@ -78,6 +90,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED53371182FF54300EBBA5D /* SystemConfiguration.framework in Frameworks */,
+				CED5336F182FF51D00EBBA5D /* Security.framework in Frameworks */,
+				CED5336D182FF51800EBBA5D /* MobileCoreServices.framework in Frameworks */,
+				CED5336B182FF51000EBBA5D /* CFNetwork.framework in Frameworks */,
+				CED53369182FF50500EBBA5D /* CoreData.framework in Frameworks */,
+				CED53367182FF4FF00EBBA5D /* QuartzCore.framework in Frameworks */,
 				CE53CE8D1824104B00AE961C /* CoreGraphics.framework in Frameworks */,
 				CE53CE8F1824104B00AE961C /* UIKit.framework in Frameworks */,
 				CE53CE8B1824104B00AE961C /* Foundation.framework in Frameworks */,
@@ -121,6 +139,12 @@
 		CE53CE891824104B00AE961C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CED53370182FF54300EBBA5D /* SystemConfiguration.framework */,
+				CED5336E182FF51D00EBBA5D /* Security.framework */,
+				CED5336C182FF51800EBBA5D /* MobileCoreServices.framework */,
+				CED5336A182FF51000EBBA5D /* CFNetwork.framework */,
+				CED53368182FF50500EBBA5D /* CoreData.framework */,
+				CED53366182FF4FF00EBBA5D /* QuartzCore.framework */,
 				CE53CE8A1824104B00AE961C /* Foundation.framework */,
 				CE53CE8C1824104B00AE961C /* CoreGraphics.framework */,
 				CE53CE8E1824104B00AE961C /* UIKit.framework */,
@@ -133,12 +157,12 @@
 		CE53CE901824104B00AE961C /* Kanobu */ = {
 			isa = PBXGroup;
 			children = (
-				CED88F25182AC7B80013CF78 /* Resources */,
-				CED88F22182AC76F0013CF78 /* Model */,
-				CED88F24182AC7860013CF78 /* Controller */,
-				CED88F23182AC7810013CF78 /* View */,
+				CED53365182FF29900EBBA5D /* Login */,
+				CED88F23182AC7810013CF78 /* Other Views */,
 				CE53CE991824104B00AE961C /* KNAppDelegate.h */,
 				CE53CE9A1824104B00AE961C /* KNAppDelegate.m */,
+				CE53CEA21824104B00AE961C /* KNFirstViewController.h */,
+				CE53CEA31824104B00AE961C /* KNFirstViewController.m */,
 				CE53CE9C1824104B00AE961C /* Main_iPhone.storyboard */,
 				CE53CE9F1824104B00AE961C /* Main_iPad.storyboard */,
 				CE53CEA81824104B00AE961C /* Images.xcassets */,
@@ -177,38 +201,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CED88F22182AC76F0013CF78 /* Model */ = {
+		CED53365182FF29900EBBA5D /* Login */ = {
 			isa = PBXGroup;
 			children = (
 				CED88F26182AD10C0013CF78 /* KNLoginModel.h */,
 				CED88F27182AD10C0013CF78 /* KNLoginModel.m */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		CED88F23182AC7810013CF78 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		CED88F24182AC7860013CF78 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				CE53CEA21824104B00AE961C /* KNFirstViewController.h */,
-				CE53CEA31824104B00AE961C /* KNFirstViewController.m */,
 				CE53CEA51824104B00AE961C /* KNLoginViewController.h */,
 				CE53CEA61824104B00AE961C /* KNLoginViewController.m */,
 			);
-			name = Controller;
+			name = Login;
 			sourceTree = "<group>";
 		};
-		CED88F25182AC7B80013CF78 /* Resources */ = {
+		CED88F23182AC7810013CF78 /* Other Views */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Resources;
+			name = "Other Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
