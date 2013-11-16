@@ -13,6 +13,6 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
-#import <RestKit.h>
-#import <RestKit/CoreData.h>
+#import <CoreData/CoreData.h>
+#import <DDLog.h>
 #endif

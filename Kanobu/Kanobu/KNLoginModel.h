@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "KNRKModel.h"
 
-@interface KNLoginModel : NSObject
+@interface KNLoginModel : KNRKModel
 
 @end

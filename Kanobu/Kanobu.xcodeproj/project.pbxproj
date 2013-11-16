@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		08F292E880DA4455BDCB3D05 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2671156FD7480CB2F5F195 /* libPods.a */; };
+		84DA3357183792FA00DC010F /* Kanobu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84DA3355183792FA00DC010F /* Kanobu.xcdatamodeld */; };
+		84DA33631837955600DC010F /* KNAccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA33621837955600DC010F /* KNAccessToken.m */; };
+		84DA33661837995B00DC010F /* KNApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA33651837995B00DC010F /* KNApi.m */; };
+		84DA336A18379A5100DC010F /* KNApiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA336918379A5100DC010F /* KNApiModel.m */; };
+		84DA336D18379DFB00DC010F /* KNRKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA336C18379DFB00DC010F /* KNRKModel.m */; };
 		CE53CE8B1824104B00AE961C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE53CE8A1824104B00AE961C /* Foundation.framework */; };
 		CE53CE8D1824104B00AE961C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE53CE8C1824104B00AE961C /* CoreGraphics.framework */; };
 		CE53CE8F1824104B00AE961C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE53CE8E1824104B00AE961C /* UIKit.framework */; };
@@ -47,6 +52,15 @@
 /* Begin PBXFileReference section */
 		2E2671156FD7480CB2F5F195 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		32CAE7FF198B4CC5AC1BD742 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		84DA3356183792FA00DC010F /* Kanobu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kanobu.xcdatamodel; sourceTree = "<group>"; };
+		84DA33611837955600DC010F /* KNAccessToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNAccessToken.h; sourceTree = "<group>"; };
+		84DA33621837955600DC010F /* KNAccessToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNAccessToken.m; sourceTree = "<group>"; };
+		84DA33641837995B00DC010F /* KNApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNApi.h; sourceTree = "<group>"; };
+		84DA33651837995B00DC010F /* KNApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNApi.m; sourceTree = "<group>"; };
+		84DA336818379A5100DC010F /* KNApiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNApiModel.h; sourceTree = "<group>"; };
+		84DA336918379A5100DC010F /* KNApiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNApiModel.m; sourceTree = "<group>"; };
+		84DA336B18379DFB00DC010F /* KNRKModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNRKModel.h; sourceTree = "<group>"; };
+		84DA336C18379DFB00DC010F /* KNRKModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNRKModel.m; sourceTree = "<group>"; };
 		CE53CE871824104B00AE961C /* Kanobu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kanobu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE53CE8A1824104B00AE961C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE53CE8C1824104B00AE961C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -116,6 +130,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84DA33671837996500DC010F /* Data Access Layer */ = {
+			isa = PBXGroup;
+			children = (
+				84DA336B18379DFB00DC010F /* KNRKModel.h */,
+				84DA336C18379DFB00DC010F /* KNRKModel.m */,
+				84DA336818379A5100DC010F /* KNApiModel.h */,
+				84DA336918379A5100DC010F /* KNApiModel.m */,
+				CED88F26182AD10C0013CF78 /* KNLoginModel.h */,
+				CED88F27182AD10C0013CF78 /* KNLoginModel.m */,
+				84DA336E18379E2A00DC010F /* Data */,
+			);
+			name = "Data Access Layer";
+			sourceTree = "<group>";
+		};
+		84DA336E18379E2A00DC010F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				84DA33641837995B00DC010F /* KNApi.h */,
+				84DA33651837995B00DC010F /* KNApi.m */,
+				84DA33611837955600DC010F /* KNAccessToken.h */,
+				84DA33621837955600DC010F /* KNAccessToken.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
 		CE53CE7E1824104B00AE961C = {
 			isa = PBXGroup;
 			children = (
@@ -157,7 +196,9 @@
 		CE53CE901824104B00AE961C /* Kanobu */ = {
 			isa = PBXGroup;
 			children = (
-				CED53365182FF29900EBBA5D /* Login */,
+				84DA3355183792FA00DC010F /* Kanobu.xcdatamodeld */,
+				84DA33671837996500DC010F /* Data Access Layer */,
+				CED53365182FF29900EBBA5D /* Login Scene */,
 				CED88F23182AC7810013CF78 /* Other Views */,
 				CE53CE991824104B00AE961C /* KNAppDelegate.h */,
 				CE53CE9A1824104B00AE961C /* KNAppDelegate.m */,
@@ -201,15 +242,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CED53365182FF29900EBBA5D /* Login */ = {
+		CED53365182FF29900EBBA5D /* Login Scene */ = {
 			isa = PBXGroup;
 			children = (
-				CED88F26182AD10C0013CF78 /* KNLoginModel.h */,
-				CED88F27182AD10C0013CF78 /* KNLoginModel.m */,
 				CE53CEA51824104B00AE961C /* KNLoginViewController.h */,
 				CE53CEA61824104B00AE961C /* KNLoginViewController.m */,
 			);
-			name = Login;
+			name = "Login Scene";
 			sourceTree = "<group>";
 		};
 		CED88F23182AC7810013CF78 /* Other Views */ = {
@@ -358,11 +397,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DA336A18379A5100DC010F /* KNApiModel.m in Sources */,
 				CE53CE971824104B00AE961C /* main.m in Sources */,
 				CE53CEA41824104B00AE961C /* KNFirstViewController.m in Sources */,
 				CE53CE9B1824104B00AE961C /* KNAppDelegate.m in Sources */,
+				84DA33631837955600DC010F /* KNAccessToken.m in Sources */,
 				CE53CEA71824104B00AE961C /* KNLoginViewController.m in Sources */,
+				84DA33661837995B00DC010F /* KNApi.m in Sources */,
+				84DA336D18379DFB00DC010F /* KNRKModel.m in Sources */,
 				CED88F28182AD10C0013CF78 /* KNLoginModel.m in Sources */,
+				84DA3357183792FA00DC010F /* Kanobu.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,6 +658,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84DA3355183792FA00DC010F /* Kanobu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84DA3356183792FA00DC010F /* Kanobu.xcdatamodel */,
+			);
+			currentVersion = 84DA3356183792FA00DC010F /* Kanobu.xcdatamodel */;
+			path = Kanobu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CE53CE7F1824104B00AE961C /* Project object */;
 }
